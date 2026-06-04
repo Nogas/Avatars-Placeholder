@@ -1,7 +1,8 @@
 # Avatar Placeholder #
-
+<!---
 ### API ###
 Read more guidance in the [Document](https://avatar-placeholder.iran.liara.run/).
+-->
 
 **Generate random user profile pictures to use as placeholders for your prototypes and design projects.**
 **To use the avatars in your project, use the following URLs:**
@@ -25,7 +26,7 @@ https://avatarapi.runflare.run/public/girl
 <img src="https://avatarapi.runflare.run/public/girl" width="65">
 
 #### 4) Unique avatar by id
-View the ID of the avatars: [All avatars](https://avatar-placeholder.iran.liara.run/avatars)
+Where [ID] is an integer between 0 and 100.
 ```
 https://avatarapi.runflare.run/public/[ID]
 ```
@@ -75,5 +76,9 @@ https://avatarapi.runflare.run/username?username=[firstname+lastname]
 
 <hr/>
 
+#### Recommended for development environments, prototypes, and non-critical applications❕
+### Built by developers, for developers 👨‍💻❤️
+<!--
 ### [Support API](https://avatar-placeholder.iran.liara.run/donate) ###
 your support ensures our API’s long and happy life. Devs and businesses relying on it will thank you. Thanks for being part of our digital adventure! 😊
+-->
