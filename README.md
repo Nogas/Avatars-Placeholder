@@ -63,17 +63,31 @@ https://avatarapi.runflare.run/public/girl?username=[value]
 <br>
 <img src="https://avatarapi.runflare.run/public/girl?username=Angela" width="65">
 
+<hr/>
+
 ### Avatars With Initials From Names
 Avatars initials, also known as profile pictures with initials, are typically the first letters of a user's name displayed within an avatar icon the ability to change the background color, text color, size, etc
-[(view all options)](https://avatar-placeholder.iran.liara.run/document/name/#more-option).
-```
-https://avatarapi.runflare.run/username?username=[firstname+lastname]
-```
-*example: username=Scott Wilson*
-<br>
-<br>
-<img src="https://avatarapi.runflare.run/username?username=Scott+Wilson" width="65">
 
+| Param | Type | Default | Description |
+|--------|--------|---------|-------------|
+| username | String (firstname + lastname) | Random * | The name used to generate initials |
+| background | String (Hex Color Codes) | Random * | Background color Avatar. for example, "eeeeee". |
+| color | String (Hex Color Codes) | Random * | Font color Avatar. for example, "aaaeee". |
+| bold | Boolean | true | Font weight bold or not. |
+| uppercase | Boolean | true | Text in Avatar image uppercase or not. |
+| size | Number (Between 32 and 1024) | 256 | Avatar image size in pixels. |
+| format | String (png or jpg) | png | Avatar image foramt. |
+| length | Number (1 or 2) | 2 | Length of the generated initials. |
+
+<br>
+
+```
+https://avatarapi.runflare.run/username?username=[firstname+lastname]&background=[Hex Color Codes]
+```
+*example: username=James+Taylor&background=f4d9b2&color=FF9800*
+<br>
+<br>
+<img src="https://avatarapi.runflare.run/username?username=James+Taylor&background=f4d9b2&color=FF9800" width="65">
 <hr/>
 
 #### Recommended for development environments, prototypes, and non-critical applications❕
